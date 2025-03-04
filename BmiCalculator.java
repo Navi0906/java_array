@@ -22,7 +22,6 @@ public class BmiCalculator {
 		
 		//determining weight status using bmi and displaying information
         for(int i=0;i<people;i++){
-			String status = "";
 			if (personData[i][2] <= 18.4) {
 				weightStatus[i] = "Underweight";
 			} else if (personData[i][2] >= 18.5 && personData[i][2] <= 24.9) {
